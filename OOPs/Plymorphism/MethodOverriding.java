@@ -1,4 +1,4 @@
-package TotalJava.OOPs;
+package TotalJava.OOPs.Plymorphism;
 
 public class MethodOverriding {
     public static void main(String[] args){
