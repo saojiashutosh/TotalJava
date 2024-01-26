@@ -21,8 +21,6 @@ class Student{
 }
 
 class Pens{
-    String color;
-    int tip;
     Pens(){
         System.out.println("Pen constructor is called .....");
     }

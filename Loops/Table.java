@@ -9,7 +9,8 @@ public class Table {
         int n = sc.nextInt();
         System.out.println("Table of entered number : ");
         for( int i = 1; i <=10 ;i++){
-            System.out.println(n*i);
+            int mult =n*i;
+            System.out.println(n+"*"+i+"="+mult);
         }
     }
 }

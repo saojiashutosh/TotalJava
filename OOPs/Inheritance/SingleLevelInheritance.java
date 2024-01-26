@@ -1,6 +1,6 @@
 package TotalJava.OOPs.Inheritance;
 
-public class SingleLevelInhertance {
+public class SingleLevelInheritance {
     public static void main(String[] args){
         Fish nimo = new Fish();
         nimo.eat();
