@@ -25,7 +25,10 @@ public class SpiralArray {
             }
 
 //            left
-            for (int i = endRow-1; i >=startRow ; i--) {
+            for (int i = endRow-1; i >=startRow +1; i--) {
+                if(startCol==endCol){
+                    break;
+                }
                 System.out.print(array[i][startCol]+" ");
             }
 
