@@ -2,16 +2,16 @@ package TotalJava.Recursion;
 
 public class IncraseingNumber {
     public static void main(String[] args){
-        int n = 1;
+        int n = 10;
         printInc(n);
     }
 
     public static void printInc(int n) {
-        if(n==10){
-            System.out.println(10);
+        if(n==1){
+            System.out.print(n+" ");
             return;
         }
+        printInc(n-1);
         System.out.print(n+" ");
-        printInc(n+1);
     }
 }
