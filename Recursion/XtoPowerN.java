@@ -11,12 +11,9 @@ public class XtoPowerN {
     }
 
     public static int x2pn(int x, int n) {
-        if(n == 1){
-            return x * n ;
+        if(n == 0){
+            return 1 ;
         }
-
-        int xnm1 = x2pn(x,n-1);
-        int xn = x * xnm1;
-        return xn ;
+        return x * x2pn(x,n-1) ;
     }
 }
